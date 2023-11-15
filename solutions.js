@@ -35,7 +35,7 @@ function addOne(input) {
     return input + 1;
 }
 function isEven(input) {
-    if(input === false) {
+    if(typeof input === 'boolean') {
         return false;
     } else {
         return input % 2 === 0;
