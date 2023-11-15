@@ -21,3 +21,37 @@
  * concat
  */
 
+function isTrue(input) {
+    return input === true;
+}
+function isFalse(input) {
+    return input === false;
+}
+function not(input) {
+    return !input;
+}
+function addOne(input) {
+    input = Number(input);
+    return input + 1;
+}
+//Broken
+function isEven(input) {
+    return input % 2 === 0;
+}
+function isIdentical(x, y) {
+    return x === y;
+}
+function isEqual(x, y) {
+    return x == y;
+}
+function or(x, y) {
+    return x || y;
+}
+function and(x, y) {
+    return x && y;
+}
+function concat(x, y) {
+    x = String(x);
+    y = String(y);
+    return x + y;
+}
